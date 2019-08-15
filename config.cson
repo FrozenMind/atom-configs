@@ -1,0 +1,63 @@
+"*":
+  "atom-beautify":
+    css:
+      end_with_newline: true
+    general:
+      _analyticsUserId: "502f21d5-e518-4e64-bfa4-fd3453983691"
+    html:
+      beautify_on_save: true
+      end_with_newline: true
+    js:
+      beautify_on_save: true
+      end_with_newline: true
+    json:
+      beautify_on_save: true
+      end_with_newline: true
+    python:
+      beautify_on_save: true
+    typescript:
+      beautify_on_save: true
+    xml:
+      beautify_on_save: true
+  "atom-ide-ui":
+    "atom-ide-code-format": {}
+    use:
+      "atom-ide-diagnostics": "never"
+      "atom-ide-diagnostics-ui": "never"
+  "autosave-onchange":
+    delay: 1000
+  core:
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "limited"
+    uriHandlerRegistration: "always"
+  editor:
+    fontSize: 16
+    preferredLineLength: 140
+  "exception-reporting":
+    userId: "578a51b5-db32-40c3-9e27-12f5cb4a5ef6"
+  "highlight-selected": {}
+  linter: {}
+  "linter-ui-default":
+    panelHeight: 181
+    panelRepresents: "Entire Project"
+    showPanel: true
+  "markdown-preview-plus": {}
+  minimap:
+    plugins:
+      "lens-mode": true
+      "lens-modeDecorationsZIndex": 0
+      "split-diff": true
+      "split-diffDecorationsZIndex": 0
+  "minimap-lens":
+    lensHeight: 350
+  "plantuml-preview":
+    jarLocation: "C:\\Users\\valentin.rebscher\\.atom\\plantuml.jar"
+  "tree-view-git-status":
+    gitFlow:
+      enabled: false
+  welcome:
+    showOnStartup: false
+".groovy.source":
+  editor:
+    showIndentGuide: true
+    showInvisibles: false

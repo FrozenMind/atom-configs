@@ -1,0 +1,26 @@
+[
+  {
+    title: "Frontend development"
+    group: "Kalo"
+    paths: [
+      "C:\\Users\\valentin.rebscher\\Documents\\Kalo\\Datenplatform\\workspace\\cockpit-qs-frontend"
+      "C:\\Users\\valentin.rebscher\\Documents\\Kalo\\Datenplatform\\cards_workspace"
+      "C:\\Users\\valentin.rebscher\\Documents\\playground"
+    ]
+  }
+  {
+    title: "Keepfocus Cards"
+    group: "Kalo"
+    paths: [
+      "C:\\Users\\valentin.rebscher\\Documents\\Kalo\\KeepFocusCards"
+      "C:\\Users\\valentin.rebscher\\Documents\\Kalo\\Datenplatform\\cards_workspace"
+    ]
+  }
+  {
+    title: "HKBVO"
+    group: "Kalo"
+    paths: [
+      "C:\\Users\\valentin.rebscher\\Documents\\Kalo\\Datenplatform\\bewertungsservice_workspace"
+    ]
+  }
+]
