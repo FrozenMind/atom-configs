@@ -10,17 +10,10 @@
  */
 
 @main-font: "Roboto";
+@orange_accent: #FFAE19;
+@black_accent: #191919;
+@white_accent: #e5e5e5;
 
-// style the background color of the tree view
-.tree-view {
-  // background-color: whitesmoke;
-}
-
-// style the background and foreground colors on the atom-text-editor-element itself
-atom-text-editor {
-  // color: white;
-  // background-color: hsl(180, 24%, 12%);
-}
 
 // style UI elements inside atom-text-editor
 atom-text-editor .cursor {
@@ -31,7 +24,7 @@ atom-text-editor .cursor {
 // highlight file & folder on hover
 .tree-view {
   li.file:hover, .header.list-item:hover {
-      color: white;
+      color: @white_accent;
   }
 }
 
@@ -41,4 +34,60 @@ atom-text-editor .line.cursor-line {
 
 .markdown-preview * {
   font-family: @main-font;
+}
+
+
+// color set
+.tree-view {
+  background-color: @black_accent;
+}
+
+.icon-file-directory {
+  color: @orange_accent;
+}
+
+atom-text-editor-minimap {
+  border-left: solid 1px @orange_accent;
+}
+
+.atom-dock-resize-handle.left.atom-dock-resize-handle-resizable {
+  background-color: @orange_accent;
+  width: 1px;
+}
+
+atom-pane-resize-handle::before {
+  background-color: @orange_accent;
+}
+
+atom-text-editor .gutter .line-number {
+  color: @orange_accent;
+  &.cursor-line {
+    color: @white_accent;
+  }
+}
+
+div.minimap-visible-area::after {
+  border-bottom: solid 1px @orange_accent;
+  border-top: solid 1px @orange_accent;
+}
+
+.texteditor.tab.sortable {
+  background-color: @white_accent;
+  color: @black_accent;
+  &.active {
+    background-color: @black_accent;
+    color: @white_accent;
+  }
+  &::before {
+    border-left: solid 1px @orange_accent;
+  }
+}
+
+atom-text-editor.editor  {
+  border-bottom: solid 1px @orange_accent;
+  background-color: @black_accent;
+}
+
+status-bar-file.file-info.inline-block a.current-path {
+  color: @orange_accent;
 }
